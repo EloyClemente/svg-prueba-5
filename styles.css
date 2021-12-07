@@ -3,15 +3,24 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
 .container {
-    max-width: 700px;
+    max-width: 900px;
     margin: 0 auto;
+    animation-name: rotar;
+    animation-duration: 60s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
 }
 
-#circulo_grande {
-    overflow: hidden;
-}
 
-.miclase {
-    /* transition: all, 1s; */
-}
+
+@keyframes rotar {
+    0% { transform: rotate(0deg) }
+    100% { transform: rotate(360deg)}
+  }
