@@ -13,7 +13,7 @@ body {
     max-width: 900px;
     margin: 0 auto;
     animation-name: rotar;
-    animation-duration: 90s;
+    animation-duration: 60s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
